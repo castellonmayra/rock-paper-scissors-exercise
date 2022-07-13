@@ -1,6 +1,7 @@
 # this is the "game.py" file...
 
-print("Rock, Paper, Scissors, Shoot!")
+print("Rock, Paper, Scissors, Shoot! Welcome Player One to my Rock-Paper-Scissors game...Please choose either 'rock', 'paper', or 'scissors':")
+
 
 import random
 

@@ -8,6 +8,7 @@ import random
 user = input("Enter a choice (rock, paper, scissors): ")
 possible_choices = ["rock", "paper", "scissors"]
 computer = random.choice(possible_choices)
+print(f"\nYou chose {user}, computer chose {computer}.\n")
 
 if user == computer:
     print("It's a tie!")

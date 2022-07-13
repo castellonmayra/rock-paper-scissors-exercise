@@ -13,16 +13,16 @@ if user == computer:
     print("It's a tie!")
 elif user == "rock":
     if computer == "scissors":
-        print("Rock crushes scissors. You win!")
+        print("Rock crushes scissors. You win! Thanks for playing. Please play again!")
     else:
-        print("Paper covers rock. You lose.")
+        print("Paper covers rock. You lose. It's ok. Please play again!")
 elif user == "paper":
     if computer == "rock":
-        print("Paper covers rock. You win!")
+        print("Paper covers rock. You win! Thanks for playing. Please play again!")
     else:
-        print("Scissors cuts paper. You lose.")
+        print("Scissors cuts paper. You lose. It's ok. Please play again!")
 elif user == "scissors":
     if computer == "paper":
-        print("Scissors cuts paper. You win!")
+        print("Scissors cuts paper. You win! Thanks for playing. Please play again!")
     else:
-        print("Rock crushes scissors. You lose.")
+        print("Rock crushes scissors. You lose. It's ok. Please play again!")

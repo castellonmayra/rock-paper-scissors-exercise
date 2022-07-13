@@ -1,6 +1,8 @@
 # this is the "game.py" file...
 
-print("Rock, Paper, Scissors, Shoot! Welcome Player One to my Rock-Paper-Scissors game...Please choose either 'rock', 'paper', or 'scissors':")
+print(
+    "Rock, Paper, Scissors, Shoot! Welcome Player One to my Rock-Paper-Scissors game...Please choose either 'rock', 'paper', or 'scissors':"
+    )
 
 
 import random
@@ -27,3 +29,5 @@ elif user == "scissors":
         print("Scissors cuts paper. You win! Thanks for playing. Please play again!")
     else:
         print("Rock crushes scissors. You lose. It's ok. Please play again!")
+else:
+    print ("OOPS! That's not a valid play! Try again!")
